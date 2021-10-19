@@ -14,5 +14,8 @@ namespace AVUniversityGraphQL.DB.Models
         public string ShortDescription { get; set; }
         public string LongDescription { get; set; }
         public int CreditHour { get; set; }
+        public int DegreeDepartmentId { get; set; }
+        public DegreeDepartment DegreeDepartment { get; set; }
+        public List<Campus> Campuses { get; set; }
     }
 }

@@ -12,5 +12,7 @@ namespace AVUniversityGraphQL.DB.Models
         public string Street { get; set; }
         public string State { get; set; }
         public string ZipCode { get; set; }
+        public int CampusId { get; set; }
+    
     }
 }

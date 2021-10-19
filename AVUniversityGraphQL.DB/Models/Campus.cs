@@ -11,6 +11,8 @@ namespace AVUniversityGraphQL.DB.Models
         public int Id { get; set; }
         public string ShortName { get; set; }
         public string LongName { get; set; }
-        public List<Address> MyProperty { get; set; } = new();
+        public List<Address> Addresses { get; set; } = new();
+        public List<Building> Buildings { get; set; } = new();
+        public List<Degree> Degrees { get; set; } = new();
     }
 }

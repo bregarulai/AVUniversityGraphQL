@@ -15,5 +15,8 @@ namespace AVUniversityGraphQL.DB.Models
         public int CreditHour { get; set; }
         public int YearNumber { get; set; }
         public int SemesterNumber { get; set; }
+        public int TeacherId { get; set; }
+        public Teacher Teacher { get; set; }
+        public List<DegreeDepartment> DegreeDepartments { get; set; } = new();
     }
 }

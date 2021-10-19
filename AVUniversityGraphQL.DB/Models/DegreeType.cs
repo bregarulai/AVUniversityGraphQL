@@ -13,5 +13,6 @@ namespace AVUniversityGraphQL.DB.Models
         public string LongName { get; set; }
         public string ShortDescription { get; set; }
         public string LongDescription { get; set; }
+        public List<DegreeDepartment> DegreeDepartments { get; set; } = new();
     }
 }
